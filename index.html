@@ -22,10 +22,10 @@
 
             <nav class="navbar">
                 <ul>
-                    <li><a href="#">BAGELS TO GO</a></li>
-                    <li><a href="#">MENU</a></li>
-                    <li><a href="#">ARRANGEMENTER</a></li>
-                    <li><a href="#">ÅBNINGSTIDER </a></li>
+                    <li><a href="velkommen">BAGELS TO GO</a></li>
+                    <li><a href="bagels">MENU</a></li>
+                    <li><a href="arrangementer">ARRANGEMENTER</a></li>
+                    <li><a href="åbningstider">ÅBNINGSTIDER </a></li>
         
                 </ul>
             </nav>
@@ -37,28 +37,33 @@
             <h2>VI TILBYDER ONLINE BESTILLING VIA JUST EAT</h2>
             <button onclick="window.location.href='https://www.just-eat.dk/menu/bagels-to-gokun-afhentning?shipping=pickup';">
                 GÅ TIL JUST EAT</button>
-            <a class="pil" href="#"><img class="pilimg" src="images/dpil 2.png"></a>
+            <a class="pil" href="#velkommen"><img class="pilimg" src="images/dpil 2.png"></a>
         </div>
-
     </section>
-    
-    
-    
-    
-    
 
 
-
-
-    <section></section>
-    <section></section>
-    <section></section>
-    <section></section>
-    <section></section>
-    <section></section>
-    <section></section>
+    <section id="velkommen"></section>
+    <section id="bagels"></section>
+    <section id="menu"></section>
+    <section id="arrangementer"></section>
+    <section id="åbningstider"></section>
+    <section id=""></section>
+    <section id=""></section>
     
-
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var header = document.getElementById("myHeader");
+        var sticky = header.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset > sticky) {
+            header.classList.add("navbar");
+          } else {
+            header.classList.remove("navbar");
+          }
+        }
+        </script>
 
     
 </body>

@@ -13,3 +13,16 @@ body {
     --primary-font: 'KoHo', sans-serif;
 
 }
+
+header {
+    width: 100%;
+    display: flex;
+    margin: 25px;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+
+}

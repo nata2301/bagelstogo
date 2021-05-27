@@ -19,10 +19,11 @@ html {
 
 }
 .logo {
-    width: 40px;
-    margin: 55px 0 0 60px;
-    float: left;
-    opacity: 0.75;
+  
+        width: 40px;
+        float: left;
+        margin: 40px 0 0 80px;
+        opacity: 0.75;
   
     
 }
@@ -30,7 +31,7 @@ html {
 header {
     
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     position: fixed;
     width: 100%;
    
@@ -42,14 +43,14 @@ header {
 .navbar, ul, li {
     list-style: none;
     display: inline-block;
-    margin: 25px;
+    margin: 20px;
 
 }
 
 .navbar, li, a{
-    
+    padding-left: 40px;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: medium 500;
     color:var(--beige-color);
     font-family: var(--primary-font);
@@ -70,7 +71,9 @@ header {
 h2 {
     text-align: center;
     color: var(--beige-color);
-    font-size: 45px;
+    font-family: var(--primary-font);
+    font-weight: 600;
+    font-size: 53px;
     text-transform: uppercase;
 
    
@@ -82,7 +85,7 @@ h3 {
     text-align: center;
     color: var(--brun-color);
     font-family: var(--primary-font);
-    font-weight: 600;
+    font-weight: 500;
     font-size: 25px;
     padding-top: 40px;
     padding-bottom: 3px;
@@ -113,7 +116,7 @@ button {
     text-align: center;
     border-radius: 45px;
     cursor: pointer;
-    padding: 25px 50px;
+    padding: 17px 50px;
     font-size: 35px;
 }
 

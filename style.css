@@ -26,3 +26,10 @@ header {
     margin: 20px;
 
 }
+
+.navbar ul li a{
+    padding-left: 40px;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: medium 500;
+}

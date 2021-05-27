@@ -13,23 +13,42 @@ body {
     --primary-font: 'KoHo', sans-serif;
 
 }
+.logo {
+    width: 40px;
+    margin: 55px 0 0 60px;
+    float: left;
+    opacity: 0.75;
+    
+}
 
 header {
     width: 100%;
     display: flex;
-    margin: 25px;
+    justify-content: space-evenly;
 }
 
-.navbar ul li {
+.navbar, ul, li {
     list-style: none;
     display: inline-block;
-    margin: 20px;
+    margin: 25px;
 
 }
 
-.navbar ul li a{
-    padding-left: 40px;
+.navbar, ul, li, a{
+    
     text-decoration: none;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: medium 500;
+    color:var(--beige-color);
+    
+    
+}
+
+#forside {
+    background-image: url(images/baggrund.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    float: left;
+
 }

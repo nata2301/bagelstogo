@@ -40,6 +40,8 @@ header {
     font-size: 30px;
     font-weight: medium 500;
     color:var(--beige-color);
+    font-family: var(--primary-font);
+    font-weight: medium 500;
     
     
 }
@@ -51,4 +53,49 @@ header {
     height: 100vh;
     float: left;
 
+}
+
+h2 {
+    text-align: center;
+    color: var(--beige-color);
+    font-size: 45px;
+   
+   
+  
+}
+
+h3 {
+    text-align: center;
+    color: var(--brun-color);
+    font-family: var(--primary-font);
+    font-weight: 600;
+    font-size: 25px;
+    padding-bottom: 10px;
+    
+
+    
+}
+
+.overskrift {
+    padding-top: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+button {
+    background-color: var(--brun-color);
+    color: var(--beige-color);
+    border: none;
+    text-align: center;
+    border-radius: 40px;
+    cursor: pointer;
+    padding: 20px 100px;
+    font-size: 30px;
+}
+
+
+.pilimg {
+    padding-top: 200px;
 }

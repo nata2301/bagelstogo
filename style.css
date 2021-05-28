@@ -129,7 +129,6 @@ h3 {
 
 .pilimg {
     padding-top: 150px;
-    
 }
 
 .pil {
@@ -139,6 +138,7 @@ h3 {
     animation-iteration-count: infinite;
     animation-direction: alternate;
     animation-timing-function: ease-in-out;
+    padding: 0;
 }
 @keyframes animation {
     from {top: 0px;}

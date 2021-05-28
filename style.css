@@ -133,12 +133,18 @@ button {
     
 }
 
+/*Styling af andet section, velkommen*/
+
 #velkommen {
     background-color: var(--beige-color);
     width: 100%;
     height: 100vh;
     float: left;
+}
 
+.bagels2 {
+    display: flex;
+    flex-direction: row;
 }
 
 #bagels {

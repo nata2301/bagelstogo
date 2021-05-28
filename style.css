@@ -374,3 +374,8 @@ footer {
     font-size: 20px;
     
 }
+
+.socialemedier {
+    display: flex;
+    flex-direction: row;
+}

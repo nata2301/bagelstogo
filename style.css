@@ -156,6 +156,8 @@ button {
 .overskrift2 {
     color: var(--mørkebrun-color);
     line-height: 1.25;
+    font-size: 32px;
+    font-weight: 600;
 }
 
 span {
@@ -198,12 +200,34 @@ span {
     display: flex;
     flex-direction: row;
     padding-top: 40px;
-}
-
-.brødtekst{
     
 }
 
+.overskrift3 {
+    text-align: left;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.25;
+}
+.trin {
+    color: var(--mørkebrun-color);
+    border-bottom: 5px solid var(--mørkebrun-color);
+    font-weight: 500;
+    
+}
+
+.brødtekst{
+    margin: 100px;
+    padding-top: 20px;
+}
+
+.tekst2 {
+    margin-right: 100px;
+    padding-top: 1px;
+    line-height: 1.5;
+    font-size: 25px;
+    color: var(--beige-color);
+}
 .megabagel {
     width: 750px;
     height: 900px;

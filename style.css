@@ -355,3 +355,26 @@ span {
     font-size: 30px;
     
 }
+
+footer {
+    background-color: var(--mørkebrun-color);
+    color: var(--beige-color);
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+}
+
+.informationer {
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-bottom: 70px;
+    padding-top: 40px;
+    font-size: 20px;
+}
+
+.overskriftfoot {
+    font-size: 20px;
+    
+}

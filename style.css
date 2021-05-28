@@ -326,7 +326,7 @@ span {
 #åbningstider {
     background-color: var(--brun-color);
     width: 100%;
-    height: 100vh;
+    height: 130vh;
     float: left;
 }
 
@@ -336,5 +336,22 @@ span {
     font-size: 35px;
     color: var(--mørkebrun-color);
     float: left;
+    
+}
+
+.tider {
+    display: flex;
+    flex-direction: row;
+    color: var(--beige-color);
     padding-top: 120px;
+}
+
+.dage {
+    
+}
+
+.tid {
+    padding-top: 90px;
+    font-size: 30px;
+    
 }

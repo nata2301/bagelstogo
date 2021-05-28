@@ -198,9 +198,6 @@ span {
 }
 
 /* Section 3 byg megabagel starter her */
-
-
-
 #bagels {
     background-color: var(--brun-color);
     width: 100%;
@@ -349,9 +346,19 @@ span {
     height: 450px;
 }
 
+/*styling af sectionen åbningstider starter her*/
 #åbningstider {
     background-color: var(--brun-color);
     width: 100%;
     height: 100vh;
     float: left;
+}
+
+.åben {
+    border-bottom: 5px solid var(--mørkebrun-color);
+    font-weight: 700;
+    font-size: 35px;
+    color: var(--mørkebrun-color);
+    float: left;
+    padding-top: 120px;
 }

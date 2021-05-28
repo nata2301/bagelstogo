@@ -183,11 +183,24 @@ span {
     height: 450px;
 }
 
+/* Section 3 byg megabagel starter her */
+
+
+
 #bagels {
     background-color: var(--brun-color);
     width: 100%;
     height: 100vh;
     float: left;
+}
+
+.section3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.brødtekst{
+    
 }
 
 #menu {

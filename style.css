@@ -31,7 +31,6 @@ header.black {
         float: left;
         margin: 30px 0 0 90px;
         opacity: 0.75;
-  
     
 }
 
@@ -129,8 +128,21 @@ h3 {
 
 
 .pilimg {
-    padding-top: 200px;
+    padding-top: 150px;
     
+}
+
+.pil {
+    position: relative;
+    animation-name: animation;
+    animation-duration: 1.2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+@keyframes animation {
+    from {top: 0px;}
+    to {top: 5px; }
 }
 
 /*Styling af andet section, velkommen*/
@@ -250,13 +262,50 @@ span {
     padding-top: 80px;
 
 }
-
+/*menu afsnit */
 #menu {
     background-color: var(--mørkebrun-color);
     width: 100%;
-    height: 100vh;
+    height: 130vh;
     float: left;
 }
+
+.overskrift4 {
+    text-align: left;
+    font-size: 32px;
+    font-weight: 500;
+    padding-left: 150px;
+    padding-top: 40px;
+}
+
+.menuen {
+    border-bottom: 5px solid var(--beige-color);
+    font-weight: 700;
+    color: var(--beige-color);
+}
+.pris {
+    color: var(--beige-color);
+    float: right;
+}
+h4 {
+    font-size: 30px;
+    font-weight: 500;
+}
+.menu-liste {
+    padding: 0 150px;
+    padding-top: 25px;
+    color: var(--beige-color);
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 0.1;
+}
+
+
+
+
+
+
+
 
 #arrangementer{
     background-color: var(--beige-color);

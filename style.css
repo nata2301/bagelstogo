@@ -364,9 +364,20 @@ span {
     line-height: 1.42;
 }
 
-.lokation {
+div.lokation {
     background-color: var(--mørkebrun-color);
+    position: absolute;
+    right: 0;
+    width: 800px;
+    height: 470px;
+    margin-top: 130px;
+    
 
+}
+
+.maps {
+    padding: 20px;
+    
 }
 footer {
     background-color: var(--mørkebrun-color);

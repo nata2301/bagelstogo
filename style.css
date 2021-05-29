@@ -18,6 +18,7 @@ html {
 }
 
 header.black {
+    
     background:var(--mørkebrun-color);
     height: 135px;
     opacity: 0.8;

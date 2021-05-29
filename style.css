@@ -384,6 +384,20 @@ div.lokation {
     font-size: 25px;
     line-height: 1.25;
 }
+
+/* Instagram gallery */
+
+.SoMe {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.insta {
+    flex: 20%;
+    max-width: 20%
+}
+
 footer {
     background-color: var(--mørkebrun-color);
     color: var(--beige-color);

@@ -339,7 +339,20 @@ span {
     
 }
 
+.ugedag {
+   padding-top: 40px;
+   font-size: 30px;
+   font-weight: 600;
+   margin-right: 30px;
+}
 
+.dage {
+    margin-left: 150px;
+}
+
+.helligdag {
+    
+}
 
 .tider {
     display: flex;
@@ -349,9 +362,9 @@ span {
 }
 
 .tid {
-    padding-top: 90px;
+    padding-top: 95px;
     font-size: 30px;
-    
+    line-height: 1.42;
 }
 
 footer {

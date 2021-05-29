@@ -320,6 +320,7 @@ span {
     padding-top: 80px;
 }
 
+
 /*menu afsnit */
 #menu {
     background-color: var(--mørkebrun-color);
@@ -529,6 +530,9 @@ footer {
 .mobile {
     display: none;
 }
+.megabagel2 {
+    display: none;
+}
 
 }
 @media screen and (max-width: 1199px) {
@@ -538,6 +542,186 @@ display: none;
     .mobile {
         display: flex;
         flex-direction: column;
+        margin: 0;
+    }
+    h3 {
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+    h2 {
+        font-size: 25px;
+        padding-bottom: 20px;
+    }
+    .knap {
+        font-size: 25px;
+    }
+
+    #velkommen {
+        height: 108vh;
+    }
+    .overskrift2 {
+        font-size: 22px;
+        padding-left: 10px;
+    }
+    .tekst {
+        font-size: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: 0;
+    }
+    .bagels2 {
+        flex-direction: column;
+    }
+    .bagels {
+        margin: 0px;
+    }
+    .ejerne {
+        padding-top: 0;
+        padding-top: 30px;
+        padding-left: 10px;
+        width: 350px;
+        height: 350px;
+    }
+    .section3 {
+        flex-direction: column-reverse;
+    }
+    .overskrift3 {
+        margin: 0;
+        padding-left: 10px;
+        font-size: 22px;
+    }
+    .brødtekst {
+        margin: 0;
+        padding-left: 10px;
+    }
+    .tekst2 {
+        margin: 0;
+        padding-left: 10px;
+        font-size: 20px;
+    }
+    .megabagel {
+        display: none;
+    }
+    .megabagel2 {
+        height: 370px;
+        width: 370px;
+    }
+    #bagels {
+        height: 145vh;
+    }
+    .overskrift4 {
+        padding: 0;
+        font-size: 22px;
+        padding-left: 10px;
+    }
+    h4 {
+        font-size: 20px;
+    }
+    .menu-liste {
+        padding: 0;
+        font-size: 20px;
+        line-height: 1.1;
+        padding: 10px;
+    }
+    #menu {
+        height: 112vh;
+    }
+    #arrangementer {
+        height: 100vh;
+    }
+    .section4 {
+        flex-direction: column;
+    }
+    .bagel3 {
+        padding: 0;
+        width: 345px;
+        height: 345px;
+        padding-left: 14px;
+    }
+    .arrangementer1 {
+        margin: 0;
+        padding: 0;
+    }
+    .overskrift5 {
+        font-size: 22px;
+        padding: 0;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+    .tekst3 {
+        margin: 0;
+        font-size: 20px;
+        padding: 10px;
+    }
+    #åbningstider {
+        height: 142vh;
+    }
+    .tider {
+        flex-direction: column;
+        padding: 0;
+    }
+    .lokation {
+        flex-direction: column; 
+    }
+    div.lokation {
+       position: relative; 
+       width: 375px;
+       height: 600px;
+       margin: 0;
+       margin-top: 10px;
+
+    }
+    .maps {
+        width: 300px;
+        height: 300px;
+        padding: 0;
+        padding: 35px;
+    }
+    .åben {
+        font-size: 22px;
+    }
+    .overskrift6 {
+padding-left: 10px;
+padding-top: 10px;
+    }
+    .dage {
+        margin: 0;
+    }
+    .tid {
+        padding: 0;
+        padding-left: 300px;
+        padding-top: 87px;
+        font-size: 20px;
+        line-height: 1.47;
+    }
+    .ugedag {
+        padding: 0;
+        padding-top: 10px;
+        font-size: 20px;
+    }
+    h4 {
+        font-size: 20px;
+        padding-left: 10px;
+    }
+    .adresse {
+        font-size: 20px;
+        padding-left: 10px;
+    }
+    .insta {
+        flex: 50%;
+        max-width: 50%
+    }
+    .info {
+        flex-direction: column;
+    }
+    .informationer {
+        padding: 0;
+        padding-left: 90px;
+        padding-right: 90px;
+        padding-top: 30px;
+    }
+    .socialemedier {
+        padding-bottom: 30px;
     }
 }
     

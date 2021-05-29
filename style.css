@@ -349,7 +349,8 @@ span {
 }
 
 .dage {
-    margin-left: 150px;
+
+    margin: 0px 0px 0px 150px;
 }
 
 
@@ -361,9 +362,13 @@ span {
 }
 
 .tid {
+    position: absolute;
     padding-top: 95px;
     font-size: 30px;
     line-height: 1.42;
+    padding-left: 500px;
+    
+ 
 }
 
 div.lokation {

@@ -422,7 +422,19 @@ footer {
     
 }
 
-.socialemedier {
+.socialemedier .icon {
+    padding: 0px 20px 0px 0px;
+}
+
+.socialemedier{
+    
     display: flex;
     flex-direction: row;
+    justify-content: center;
+  
+
 }
+
+
+    
+    

@@ -339,6 +339,16 @@ span {
     
 }
 
+.ugedag {
+   padding-top: 40px;
+   font-size: 30px;
+   font-weight: 600;
+   margin-right: 30px;
+}
+
+.dage {
+    margin-left: 150px;
+}
 
 
 .tider {
@@ -349,11 +359,15 @@ span {
 }
 
 .tid {
-    padding-top: 90px;
+    padding-top: 95px;
     font-size: 30px;
-    
+    line-height: 1.42;
 }
 
+.lokation {
+    background-color: var(--mørkebrun-color);
+
+}
 footer {
     background-color: var(--mørkebrun-color);
     color: var(--beige-color);

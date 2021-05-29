@@ -21,6 +21,7 @@ header.black {
     background:var(--mørkebrun-color);
     height: 135px;
     opacity: 0.8;
+    z-index: 100;
 }
 
 .logo {  
@@ -371,13 +372,17 @@ div.lokation {
     width: 800px;
     height: 470px;
     margin-top: 130px;
+    display: flex;
     
-
 }
 
 .maps {
     padding: 20px;
-    
+}
+
+.adresse {
+    font-size: 25px;
+    line-height: 1.25;
 }
 footer {
     background-color: var(--mørkebrun-color);

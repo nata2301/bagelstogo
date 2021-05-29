@@ -350,9 +350,6 @@ span {
     margin-left: 150px;
 }
 
-.helligdag {
-    
-}
 
 .tider {
     display: flex;
@@ -367,6 +364,10 @@ span {
     line-height: 1.42;
 }
 
+.lokation {
+    background-color: var(--mørkebrun-color);
+
+}
 footer {
     background-color: var(--mørkebrun-color);
     color: var(--beige-color);

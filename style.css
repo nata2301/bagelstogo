@@ -758,7 +758,20 @@ footer {
 
     }
 
-   
+   .overskriftfoot {
+       font-size: 20px;
+   }
+
+   .informationer p {
+       font-size: 15px;
+   }
+   .navbar {
+       padding: 0px 0px 0px 0px;
+   }
+   .logo {
+       margin: 30px 0px 0px 0px;
+   }
+
 }
 
 /*mobil*/

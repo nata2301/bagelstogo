@@ -539,6 +539,14 @@ footer {
     .desktop-menu {
         display: none;
             }
+        .mobile {
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+            }
+        menu .mobile {
+            z-index: 100;
+        }
         .pilimg {
             padding: 0;
             padding-top: 50px;

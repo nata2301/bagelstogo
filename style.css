@@ -537,7 +537,54 @@ footer {
 }
 @media screen and (max-width: 1199px) {
     .desktop-menu {
+        display: none;
+            }
+        .pilimg {
+            padding: 0;
+            padding-top: 50px;
+        }
+        .navbar, ul, li {
+            margin: 0;
+        }
+    .megabagel {
+        display: none;
+    }
+    .megabagel2 {
+        height: 370px;
+        width: 370px;
+    }
+    #velkommen {
+        height: 85vh;
+    }
+    .overskrift2 {
+        font-size: 30px;
+        padding-left: 20px;
+        padding-top:90px;
+    }
+    .tekst {
+        font-size: 23px;
+        padding-left: 20px;
+        padding-right: 10px;
+        margin: 0;
+    }
+    .bagels {
+        margin: 0px;
+    }
+    .ejerne {
+        padding: 0;
+        padding-top: 120px;
+        padding-left: 50px;
+        padding-right: 30px;
+        width: 350px;
+        height: 350px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .desktop-menu {
 display: none;
+    }
+    .header {
+        width:100%;
     }
     .mobile {
         display: flex;

@@ -616,7 +616,12 @@ footer {
    
 
     #bagels{
-        height: 175vh;
+        height: 165vh;
+    }
+
+    .overskrift3 {
+        font-size: 30px;
+        
     }
     .section3 {
         flex-direction: column-reverse;
@@ -624,13 +629,14 @@ footer {
     }
 
     .brødtekst{
-        margin: 90px 10px 0px 20px;
+        margin: 80px 10px 0px 20px;
     }
     
 
     .tekst2{
         margin-left: auto;
         margin-right: auto;
+        font-size: 23px;
     }
 
     .megabagel2 {
@@ -641,13 +647,51 @@ footer {
        width: 500px;
        
     }
-    .menu-liste {
-        line-height: 1.1;
-
-    }
+   
     #menu {
         height: 165vh;
     }
+    .overskrift4 {
+        font-size: 30px;
+        
+    }
+
+    h4 {
+        font-size: 25px;
+    }
+    .pris {
+        font-size: 25px;
+    }
+    
+    p{
+        font-size: 23px;
+
+    } 
+    .menu-liste {
+        line-height: 1.1;
+        font-size: 23px;
+    }
+
+    .bagel3 {
+       padding: 120px 50px 0px 30px;
+       width: 350px;
+     height: 350px;
+
+    }
+
+    .arrangementer1 {
+        margin: 90px 0px 0px 0px;
+        padding: 0px 20px 0px 15px
+    }
+
+    .overskrift5 {
+        font-size: 30px;
+    }
+
+    .tekst3 {
+        font-size: 23px;
+        margin: 23px 23px 23px 0px;
+    
 
     
 }

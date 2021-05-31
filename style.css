@@ -524,8 +524,6 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
-  
-
 }
 
 /*desktop*/ 
@@ -545,7 +543,7 @@ footer {
 .desktop-menu {
     display: none;
 }
-.megabagel2 {
+.megabagel {
     display: none;
 }
 .navbar, ul, li {
@@ -615,6 +613,43 @@ footer {
         width: 350px;
         height: 350px;
     }
+   
+
+    #bagels{
+        height: 175vh;
+    }
+    .section3 {
+        flex-direction: column-reverse;
+       
+    }
+
+    .brødtekst{
+        margin: 90px 10px 0px 20px;
+    }
+    
+
+    .tekst2{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .megabagel2 {
+        display: block; 
+        margin-left: auto;
+        margin-right: auto;
+       height: 500px;
+       width: 500px;
+       
+    }
+    .menu-liste {
+        line-height: 1.1;
+
+    }
+    #menu {
+        height: 165vh;
+    }
+
+    
 }
 
 /*mobil*/

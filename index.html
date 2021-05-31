@@ -21,21 +21,28 @@
                 </div>
 
             <nav class="navbar">
+                <nav class="overlay-menu" id="overlay-menu">
                 <ul class="desktop-menu">
                     <li><a href="#velkommen">BAGELS TO GO</a></li>
                     <li><a href="#bagels">MENU</a></li>
                     <li><a href="#arrangementer">ARRANGEMENTER</a></li>
                     <li><a href="#åbningstider">ÅBNINGSTIDER </a></li>
                 </ul>
-                <a class="menu__icon mobile"><span></span></a>
-    <ul class="menu mobile">
-        <li><a href="#velkommen" class="menu__item">BAGELS TO GO</a></li>
-        <li><a href="#bagels" class="menu__item">MENU</a></li>
-        <li><a href="#arrangementer" class="menu__item">ARRANGEMENTER</a></li>
-        <li><a href="#åbningstider" class="menu__item">ÅBNINGSTIDER</a></li>
-    </ul>
+
+                
+                    <a class="menu__icon mobile"><span></span></a>
+                <ul class="menu mobile">
+                    <li><a href="#velkommen" class="menu__item">BAGELS TO GO</a></li>
+                    <li><a href="#bagels" class="menu__item">MENU</a></li>
+                    <li><a href="#arrangementer" class="menu__item">ARRANGEMENTER</a></li>
+                    <li><a href="#åbningstider" class="menu__item">ÅBNINGSTIDER</a></li>
+                </ul>
+            
+        </nav>
             </nav>
         </header>
+
+        
        <!--BUTTOM MED LINK TIL JUST EAT - https://www.w3docs.com/snippets/html/how-to-create-an-html-button-that-acts-like-a-link.html
     Lokaliseret d. 27-05-2021 --> 
         <div class="overskrift">
@@ -213,12 +220,18 @@ Lokaliseret d. 27-05-2021-->
     </script>
     <!--Hamburger navigation menu - Kilde: https://sharkcoder.com/blocks/hamburger 
     Lokaliseret d. 29-05-2021 --> 
-    <script>
-    $(document).ready(function () {
-        $('.menu__icon').click(function (){
+    <script>  
+     $(document).ready(function () {
+       $('.menu__icon').click(function (){
               $('body').toggleClass('menu_shown');
-          });
-      });
+    
+    });
+    });
+      
+
+
       </script>
+
+      
 </body>
 </html>

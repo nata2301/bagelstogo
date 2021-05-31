@@ -649,10 +649,11 @@ footer {
     }
    
     #menu {
-        height: 165vh;
+        height: 150vh;
     }
     .overskrift4 {
         font-size: 30px;
+        padding: 40px 0px 0px 20px;
         
     }
 
@@ -662,7 +663,7 @@ footer {
     .pris {
         font-size: 25px;
     }
-    
+
     p{
         font-size: 23px;
 
@@ -670,6 +671,7 @@ footer {
     .menu-liste {
         line-height: 1.1;
         font-size: 23px;
+        padding: 25px 20px 0px;
     }
 
     .bagel3 {
@@ -677,6 +679,10 @@ footer {
        width: 350px;
      height: 350px;
 
+    }
+
+    #arrangementer {
+        height: 85vh;
     }
 
     .arrangementer1 {
@@ -690,10 +696,69 @@ footer {
 
     .tekst3 {
         font-size: 23px;
-        margin: 23px 23px 23px 0px;
+        margin: 23px 23px 23px 0px; 
+    }
+
+    #åbningstider {
+        height: 115vh;
+    }
+
+    .maps {
+        width: 425px;
+        height: 325px;
+        padding: 0;
+        padding: 35px;
+    }
+
+    div.lokation {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        width: 475px;
+        height: 625px;
     
 
-    
+
+    }
+
+    .adresse {
+        font-size: 23px;
+        margin: 20px 20px 0px 35px;   
+
+    }
+
+    .tider {
+        padding: 0px 0px 0px;
+    }
+
+    .tid {
+     
+       padding: 200px 0px 0px 350px;
+       line-height: 1.6;
+       font-size: 24px;
+       
+       
+       
+    }
+
+    .ugedag h4 {
+        padding-top: 5px;
+        line-height: 1.1;
+        font-size: 23px;
+        
+    }
+
+    .overskrift6 {
+        padding-top: 30px;
+        font-size: 30px;
+    }
+
+    .dage {
+    margin: 80px 10px 0px 20px;
+
+    }
+
+   
 }
 
 /*mobil*/

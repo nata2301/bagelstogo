@@ -121,12 +121,15 @@ left: 0;
 width: 100%;
 min-height: 100vh;
 text-align: center;
-padding-top: 112px;
+padding: 120px 0px 0px 0px ;;
 background: var(--mørkebrun-color);
 z-index: 10;
 transition: all .4s ease-in-out;
 transform: translateX(-100%);
 }
+
+
+
 
 .menu_shown .mobile.menu {
 transform: translateX(0);
@@ -544,8 +547,9 @@ footer {
             flex-direction: column;
             margin: 0;
             }
-        menu .mobile {
+        .menu mobile {
             z-index: 100;
+            
         }
         .pilimg {
             padding: 0;

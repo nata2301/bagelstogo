@@ -704,8 +704,8 @@ footer {
     }
 
     .maps {
-        width: 425px;
-        height: 325px;
+        width: 380px;
+        height: 300px;
         padding: 0;
         padding: 35px;
     }
@@ -714,7 +714,7 @@ footer {
         position: absolute;
         display: flex;
         flex-direction: column;
-        width: 475px;
+        width: 450px;
         height: 625px;
     
 

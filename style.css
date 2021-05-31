@@ -528,17 +528,42 @@ footer {
 
 }
 
+/*desktop*/ 
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1424px) {
 .mobile {
     display: none;
 }
 .megabagel2 {
     display: none;
 }
+}
+
+/*mini-pc*/
+@media screen and (max-width: 1423px){
+
+.desktop-menu {
+    display: none;
+}
+.megabagel2 {
+    display: none;
+}
+.navbar, ul, li {
+    margin: 0;
+}
+
+.mobile {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    }
+
+
+
+/*tablet */
 
 }
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 1024px) {
     .desktop-menu {
         display: none;
             }
@@ -547,10 +572,7 @@ footer {
             flex-direction: column;
             margin: 0;
             }
-        .menu mobile {
-            z-index: 100;
-            
-        }
+        
         .pilimg {
             padding: 0;
             padding-top: 50px;
@@ -558,6 +580,9 @@ footer {
         .navbar, ul, li {
             margin: 0;
         }
+    li {
+        padding: 0px
+    }
     .megabagel {
         display: none;
     }
@@ -591,6 +616,9 @@ footer {
         height: 350px;
     }
 }
+
+/*mobil*/
+
 @media screen and (max-width: 768px) {
     .desktop-menu {
 display: none;
@@ -616,7 +644,7 @@ display: none;
     }
 
     #velkommen {
-        height: 108vh;
+        height: 115vh;
     }
     .overskrift2 {
         font-size: 22px;
@@ -635,9 +663,7 @@ display: none;
         margin: 0px;
     }
     .ejerne {
-        padding-top: 0;
-        padding-top: 30px;
-        padding-left: 10px;
+        padding: 30px 10px 30px 10px;
         width: 350px;
         height: 350px;
     }

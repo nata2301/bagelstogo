@@ -540,31 +540,9 @@ footer {
 }
 }
 
-/*mini-pc*/
-@media screen and (max-width: 1423px){
+/*mini pc og tablet */
 
-.desktop-menu {
-    display: none;
-}
-.megabagel {
-    display: none;
-}
-.navbar, ul, li {
-    margin: 0;
-}
-
-.mobile {
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    }
-
-
-
-/*tablet */
-
-}
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1423px) {
     .desktop-menu {
         display: none;
             }
@@ -954,10 +932,12 @@ padding-top: 10px;
         font-size: 20px;
         padding-left: 10px;
     }
+    
     .insta {
         flex: 50%;
         max-width: 50%
     }
+
     .info {
         flex-direction: column;
     }

@@ -749,6 +749,10 @@ footer {
         height: 85vh;
     }
 
+    .section4 {
+        padding-top: 150px;
+    }
+
     .arrangementer1 {
         margin: 90px 0px 0px 0px;
         padding: 0px 20px 0px 15px
@@ -905,6 +909,7 @@ footer {
     }
 
     .overskrift3 {
+        padding-top: 75px;
         margin: 0;
         padding-left: 10px;
         font-size: 22px;
@@ -935,7 +940,7 @@ footer {
     /* Section 3 */
 
     #bagels {
-        height: 145vh;
+        height: 155vh;
     }
 
     .overskrift4 {
@@ -964,7 +969,7 @@ footer {
     /* Section 5 */
 
     #arrangementer {
-        height: 100vh;
+        height: 110vh;
     }
 
     .section4 {
@@ -1002,6 +1007,10 @@ footer {
         height: 142vh;
     }
 
+    .dage {
+        padding-top: 65px;
+    }
+
     .tider {
         flex-direction: column;
         padding: 0;
@@ -1034,7 +1043,7 @@ footer {
 
     .overskrift6 {
     padding-left: 10px;
-    padding-top: 10px;
+    padding-top: 55px;
     }
 
     .dage {
@@ -1044,9 +1053,9 @@ footer {
     .tid {
         padding: 0;
         padding-left: 300px;
-        padding-top: 87px;
+        padding-top: 210px;
         font-size: 20px;
-        line-height: 1.47;
+        line-height: 1.65;
     }
 
     .ugedag {
